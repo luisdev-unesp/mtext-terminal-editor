@@ -1,7 +1,3 @@
-# mtext-terminal-editor
-Editor de texto via terminal desenvolvido em C, utilizando listas duplamente encadeadas para gerenciamento de linhas e pilhas dinâmicas para o sistema de Undo/Redo.
-
-
 mEditor - Editor de Texto em C
 
 Este projeto consiste em um editor de texto via terminal desenvolvido como parte da disciplina de Algoritmos e Técnicas de Programação (ATP) na UNESP (IBILCE). O foco principal é a aplicação prática de estruturas de dados dinâmicas para manipulação eficiente de texto e gerenciamento de estado.
