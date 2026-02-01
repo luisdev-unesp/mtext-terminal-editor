@@ -8,13 +8,13 @@ CC = gcc
 # Flags de Compilação:
 # -Wall -Wextra: Habilita avisos importantes
 # -g: Inclui informações de debug
-CFLAGS = -Wall -Wextra -g
+CFLAGS = -Wall -Wextra -g -I include
 
 # Nome do Executável Final
 EXEC = mtext
 
 # Arquivos Fonte (.c) conforme sua pasta:
-SRC = mEditor.c mEditorFunc.c
+SRC = src/mEditor.c src/mEditorFunc.c
 
 # Arquivos Objeto (.o) - gerados automaticamente a partir dos arquivos fonte
 OBJ = $(SRC:.c=.o)
